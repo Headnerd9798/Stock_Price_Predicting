@@ -1,7 +1,4 @@
 # Stock_Price_Predicting
-Project for ELEN E6889 
-
-# Stock_Price_Predicting
 This is the Final Project for ELEN E6889 
 
 # Dataset Discription
