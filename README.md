@@ -11,7 +11,7 @@ This is the Final Project for ELEN E6889
         1. S&P
         2. Dow Jones
         3. NASAQ
-    2. Competents Features
+    2. Competitots Features
         1. Stock Price of Cisco
         2. Stock Price of Skype(Microsoft)
         3. Stock Price of Facebook
