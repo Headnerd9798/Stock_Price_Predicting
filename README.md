@@ -20,10 +20,11 @@ This is the Final Project for ELEN E6889
 # Models
 
 1. Conventional Machine Learning methods
-    1. Regression (Linear Rregression)
-    2. Random Forest 
-    3. XGBoost RF 
-
+    1. Linear Regression
+    2. SVM (Support Vector Machine)
+    3. Random Forest Regressor
+    4. Extra Tree Regressor
+    5. Gradient Boosting Regressor
 
 2. Deep Learning methods
     1. LSTM
