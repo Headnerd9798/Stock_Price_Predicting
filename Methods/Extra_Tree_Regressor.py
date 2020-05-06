@@ -39,6 +39,8 @@ def func_etr(x):
 
 result_etr = func_etr(data_df)
 
-res = np.transpose(result_etr)
+out = np.vstack((data_df[:, 1], result_etr))
 
-np.savetxt('./dataset/dataset_result/result_extra_tree.csv', res.astype(float), delimiter=",")
+output = np.transpose(out)
+
+np.savetxt('./dataset/dataset_result/result_extra_tree.csv', output, delimiter=",", fmt='%s')

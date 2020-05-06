@@ -27,6 +27,16 @@ This is the Final Project for ELEN E6889
     5. Gradient Boosting Regressor
 
 2. Deep Learning methods
-    1. LSTM
-    2. CNN
-    3. NN
+    1. NN
+    2. RNN
+    3. LSTM
+
+# Result Visualization
+1. Save prediction result into CSV file
+2. Plot Prediction Price, True Price Versus Time(Date)
+3. RMSE and so on (Measurement of Performance)
+
+# Formality
+1. Conventional Machine Learning Methods (all, use 30 rows predict 1 result)
+2. Deep Learning Methods(Last One Week)
+3. 

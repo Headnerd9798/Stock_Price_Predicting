@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor, ExtraTreesRegressor, Gradien
 
 # Data clean
 raw_data = pd.read_csv('./dataset/cleaned-data-1.csv', header=0)
-clean_data = raw_data.dropna(axis=0) # drop rows that contains null value
+clean_data = raw_data.dropna(axis=0)  # drop rows that contains null value
 data_df = np.array(clean_data)
 # print(len(data_df))
 # print(data_df[:, 2:9])
@@ -37,8 +37,10 @@ def func_rfr(x):
     return result_rfr
 
 
-result_rtr = func_rfr(data_df)
+result_rfr = func_rfr(data_df)
 
-res = np.transpose(result_rtr)
+out = np.vstack((data_df[:, 1], result_rfr))
 
-np.savetxt('./dataset/dataset_result/result_random_forest.csv', res.astype(float), delimiter=",")
+output = np.transpose(out)
+
+np.savetxt('./dataset/dataset_result/result_random_forest.csv', output, delimiter=",", fmt='%s')

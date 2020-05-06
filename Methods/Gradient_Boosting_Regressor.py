@@ -39,6 +39,8 @@ def func_gbr(x):
 
 result_gbr = func_gbr(data_df)
 
-res = np.transpose(result_gbr)
+out = np.vstack((data_df[:, 1], result_gbr))
 
-np.savetxt('./dataset/dataset_result/result_gradient_boosting.csv', res.astype(float), delimiter=",")
+output = np.transpose(out)
+
+np.savetxt('./dataset/dataset_result/result_gradient_boosting.csv', output, delimiter=",", fmt='%s')
