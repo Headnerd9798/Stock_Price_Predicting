@@ -7,7 +7,7 @@ This is the Final Project for ELEN E6889
     1. Overall Market Features
         1. S&P
         2. Dow Jones
-        3. NASAQ
+        3. NASDAQ
     2. Competitors Features
         1. Stock Price of Cisco
         2. Stock Price of Skype(Microsoft)
@@ -27,9 +27,9 @@ This is the Final Project for ELEN E6889
     5. Gradient Boosting Regressor
 
 2. Deep Learning methods
-    1. NN
-    2. RNN
-    3. LSTM
+    1.LSTM
+    2.NN
+    3.CNN
 
 # Result Visualization
 1. Save prediction result into CSV file
@@ -39,4 +39,4 @@ This is the Final Project for ELEN E6889
 # Formality
 1. Conventional Machine Learning Methods (all, use 30 rows predict 1 result)
 2. Deep Learning Methods(Last One Week)
-3. 
+

@@ -35,6 +35,7 @@ plt.xticks(x[::10], rotation=45)
 plt.xlabel('Time')
 plt.ylabel('Stock Price ($)')
 plt.legend()
+plt.savefig('../Figure/Linear_Regression_Month.png', bbox_inches = 'tight')
 plt.show()
 
 # Support Vector Machine
@@ -46,6 +47,7 @@ plt.xticks(x[::10], rotation=45)
 plt.xlabel('Time')
 plt.ylabel('Stock Price ($)')
 plt.legend()
+plt.savefig('../Figure/Support_Vector_Machine_Month.png', bbox_inches = 'tight')
 plt.show()
 
 # Random Forest
@@ -57,6 +59,7 @@ plt.xticks(x[::10], rotation=45)
 plt.xlabel('Time')
 plt.ylabel('Stock Price ($)')
 plt.legend()
+plt.savefig('../Figure/Random_Forest_Month.png', bbox_inches = 'tight')
 plt.show()
 
 # Extra Tree
@@ -68,6 +71,7 @@ plt.xticks(x[::10], rotation=45)
 plt.xlabel('Time')
 plt.ylabel('Stock Price ($)')
 plt.legend()
+plt.savefig('../Figure/Extra_Tree_Month.png', bbox_inches = 'tight')
 plt.show()
 
 # Gradient Boosting
@@ -79,6 +83,7 @@ plt.xticks(x[::10], rotation=45)
 plt.xlabel('Time')
 plt.ylabel('Stock Price ($)')
 plt.legend()
+plt.savefig('../Figure/Gradient_Boosting_Month.png', bbox_inches = 'tight')
 plt.show()
 
 
